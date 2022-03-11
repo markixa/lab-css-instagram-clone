@@ -12,8 +12,8 @@ body {
 }
 
 .outter-container {
-  width: 800px;
-  height: 420px;
+  width: 900px;
+  height: 500px;
   padding: 80px 400px 150px 400px;
   display: flex;
   flex-direction: row;
@@ -29,25 +29,46 @@ body {
 /*el1*/
 
 .inner-container {
-  width: 600px;
+  width: 400px;
   height: 550px; 
-  padding: 30px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
 
 /*el2 logo & button*/
 .logo-apt {
+  padding: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo-img {
   width:200px;
   height: auto;
+  padding: 0 40px 0 0;
 }
-.log-in-button {
-  width: auto;
+
+.home-button {
+  color: #ffffff;
+  font-size: 10px;
+  width: 80px;
+  height: 30px;
+  background: #4e7699;
+  border-color:#06365f 5px;
+  border-radius: 5px;
+  padding: 0 0 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.home-image{
+  width: 20px;
+  height: auto;
+  padding: 5px;
+}
+
 /*el2*/
 
 /*el3 text*/
@@ -70,15 +91,14 @@ header {
 /*el4*/
 
 footer {
-  padding: 50px;
+  padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 footer > div {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .footer-a {  
