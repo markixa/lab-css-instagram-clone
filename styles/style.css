@@ -7,4 +7,83 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background: linear-gradient(to bottom , #4e7699 40%, #f5f6f8 40% );
+  height: 826px;
+}
+
+.outter-container {
+  width: 800px;
+  height: 420px;
+  padding: 80px 400px 150px 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*el1 - phone pic*/
+.phones {
+  width: auto;
+  height: 550px;
+  padding: 30px;
+}
+/*el1*/
+
+.inner-container {
+  width: 600px;
+  height: 550px; 
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*el2 logo & button*/
+.logo-apt {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-img {
+  width:200px;
+  height: auto;
+}
+.log-in-button {
+  width: auto;
+}
+/*el2*/
+
+/*el3 text*/
+header {
+  font-weight: bold;
+  font-size: 24px;
+  color:#06365f;
+}
+
+.text-box{
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+}
+/*el3*/
+
+/*el4 app buttons*/
+.app-buttons {
+  align-self: flex-end;
+}
+/*el4*/
+
+footer {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+footer > div {
+  padding: 0 20px;
+}
+
+.footer-a {  
+  color: #06365f;
+}
+.footer-b{
+  color: #8c8c90;
 }
